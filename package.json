@@ -1,0 +1,20 @@
+{
+  "name": "pico_demo",
+  "version": "1.0.0",
+  "description": "A simple project to demonstrate using Pico.css with SASS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo \"Build step not defined\"",
+    "build-css": "sass --no-source-map styles/sass.scss styles/compiled.css",
+    "dev-css": "sass --watch styles/sass.scss styles/compiled.css"
+  },
+  "author": "EndersChosen",
+  "license": "MIT",
+  "dependencies": {
+    "@picocss/pico": "^2.1.1"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.93.0"
+  }
+}
